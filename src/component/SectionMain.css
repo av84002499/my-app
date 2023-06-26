@@ -1,0 +1,45 @@
+.section {
+    margin: 10px 40px;
+    background-color: white;
+    width:max-content ;
+    height: 90px;
+}
+
+.section-column {
+    display: flex;
+    align-items: center;
+}
+
+.section-button {
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 8px;
+    background: var(--button-affirm, #32C1FF);
+    display: inline-flex;
+    height: 40px;
+    padding: 5px 30px;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    flex-shrink: 0;
+}
+
+.section-label {
+    color: var(--label-text, #C7C7C7);
+
+    /* Label Text */
+    font-size: 18px;
+    font-family: Inter;
+    margin: 20px;
+}
+
+.section-heading {
+    color: #000;
+
+    /* Section Title */
+    font-size: 40px;
+    font-family: Inter;
+    font-weight: 600;
+    margin: 20px;
+}
