@@ -5,16 +5,16 @@ export default function Main() {
   return (
     <div className="container">
       <div className="logo-container">
-        <img className="logo-upper" src="assets/Z_svg.svg" alt="Z-logo image" />
+        <img className="logo-upper" src="assets/Z_svg.svg"/>
         <div className="zip-logo-container">
           <div className="zip-text-wrapper">
             <h1 className="zip-txt">ZIP</h1>
             <p className="messenger-txt">Messenger</p>
           </div>
           <div className="zip-logo-wrapper">
-            <img className="logo1" src="assets/V_svg.svg" alt="V-logo image" />
-            <img className="logo2" src="assets/S_svg.svg" alt="S-logo image" />
-            <img className="logo3" src="assets/G_svg.svg" alt="G-logo image" />
+            <img className="logo1" src="assets/V_svg.svg" />
+            <img className="logo2" src="assets/S_svg.svg" />
+            <img className="logo3" src="assets/G_svg.svg" />
           </div>
         </div>
       </div>
